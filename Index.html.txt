@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Poop Coin</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f1f1f1;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 30px 0;
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2em;
+        }
+        .content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 50px 20px;
+        }
+        .content img {
+            width: 50%;
+            max-width: 500px;
+            margin-bottom: 30px;
+        }
+        .description {
+            text-align: center;
+            font-size: 1.1em;
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        a {
+            color: #ffcc00;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Poop Coin</h1>
+        <p>The funniest coin in the crypto world!</p>
+    </header>
+
+    <div class="content">
+        <img src="PoopCoin.png" alt="Poop Coin Image">
+        <div class="description">
+            <h2>What is Poop Coin?</h2>
+            <p>Poop Coin is a fun and light-hearted meme cryptocurrency designed to bring a smile to your face. It’s not just another coin, it’s a statement! Join us in the world of poop jokes, memes, and the crypto craze with Poop Coin!</p>
+            <p>Don’t take life too seriously, and let’s have some fun with Poop Coin!</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Poop Coin | <a href="#">Contact Us</a></p>
+    </footer>
+</body>
+</html>
